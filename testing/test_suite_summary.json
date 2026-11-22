@@ -1,0 +1,252 @@
+[
+  {
+    "tc_id": "TC01",
+    "tc_name": "Baseline Standard Design",
+    "notes": "Standard 2-lane bridge with default IRC loading and optimized plate sizing.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC01_Baseline_Standard_Design.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 44.19,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1040,
+        "max_dcr": 1.5726,
+        "util_flexure": 19.79,
+        "util_shear": 39.910000000000004,
+        "util_ltb": 22.81,
+        "util_fatigue": 157.26,
+        "util_deflection": 45.78,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  },
+  {
+    "tc_id": "TC02",
+    "tc_name": "Short Span Boundary",
+    "notes": "Single-lane 20m bridge testing lower geometric boundary and E 250A/M 25.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC02_Short_Span_Boundary.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1120,
+        "elapsed_seconds": 20.51,
+        "success": true,
+        "girder_depth_after": 1.12,
+        "output_keys_count": 798,
+        "max_dcr": 1.3458,
+        "util_flexure": 22.650000000000002,
+        "util_shear": 23.69,
+        "util_ltb": 19.220000000000002,
+        "util_fatigue": 134.58,
+        "util_deflection": 40.96,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 3
+      }
+    ]
+  },
+  {
+    "tc_id": "TC03",
+    "tc_name": "Long Span Boundary",
+    "notes": "3-lane 40m bridge testing upper span range and heavy traffic multi-lane loading.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC03_Long_Span_Boundary.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 2230,
+        "elapsed_seconds": 88.45,
+        "success": true,
+        "girder_depth_after": 2.23,
+        "output_keys_count": 1282,
+        "max_dcr": 1.4728,
+        "util_flexure": 15.659999999999998,
+        "util_shear": 53.900000000000006,
+        "util_ltb": 35.03,
+        "util_fatigue": 147.28,
+        "util_deflection": 44.72,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 5
+      }
+    ]
+  },
+  {
+    "tc_id": "TC04",
+    "tc_name": "Positive Skew Geometry",
+    "notes": "Bridge with +15 deg skew to evaluate transverse grillage and support distortion.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC04_Positive_Skew_Geometry.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 51.67,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1032,
+        "max_dcr": 1.5707,
+        "util_flexure": 19.759999999999998,
+        "util_shear": 41.730000000000004,
+        "util_ltb": 22.7,
+        "util_fatigue": 157.07,
+        "util_deflection": 46.72,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  },
+  {
+    "tc_id": "TC05",
+    "tc_name": "Negative Skew Geometry",
+    "notes": "Bridge with -15 deg skew to check mirror symmetry against TC04.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC05_Negative_Skew_Geometry.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 51.48,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1032,
+        "max_dcr": 1.4593,
+        "util_flexure": 18.43,
+        "util_shear": 53.269999999999996,
+        "util_ltb": 22.7,
+        "util_fatigue": 145.93,
+        "util_deflection": 43.54,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  },
+  {
+    "tc_id": "TC06",
+    "tc_name": "Custom Material Properties",
+    "notes": "Explicit custom steel (Fy=360) and concrete (fck=40) testing retention and density bypass.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC06_Custom_Material_Properties.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 44.98,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1046,
+        "max_dcr": 1.5726,
+        "util_flexure": 19.03,
+        "util_shear": 39.910000000000004,
+        "util_ltb": 22.25,
+        "util_fatigue": 157.26,
+        "util_deflection": 44.67,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  },
+  {
+    "tc_id": "TC07",
+    "tc_name": "Consecutive Multi-Run Stability",
+    "notes": "3 consecutive design runs on the same bridge object to evaluate state persistence and unit division bug.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC07_Consecutive_Multi-Run_Stability.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 44.47,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1040,
+        "max_dcr": 1.5726,
+        "util_flexure": 19.79,
+        "util_shear": 39.910000000000004,
+        "util_ltb": 22.81,
+        "util_fatigue": 157.26,
+        "util_deflection": 45.78,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      },
+      {
+        "run_index": 2,
+        "girder_depth_before": 1780,
+        "elapsed_seconds": 47.25,
+        "success": true,
+        "girder_depth_after": 1.78,
+        "output_keys_count": 1040,
+        "max_dcr": 1.4295,
+        "util_flexure": 18.29,
+        "util_shear": 43.99,
+        "util_ltb": 22.98,
+        "util_fatigue": 142.95,
+        "util_deflection": 44.75,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      },
+      {
+        "run_index": 3,
+        "girder_depth_before": 1890,
+        "elapsed_seconds": 52.88,
+        "success": true,
+        "girder_depth_after": 1.89,
+        "output_keys_count": 1040,
+        "max_dcr": 1.4024,
+        "util_flexure": 17.95,
+        "util_shear": 48.46,
+        "util_ltb": 26.63,
+        "util_fatigue": 140.24,
+        "util_deflection": 42.69,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  },
+  {
+    "tc_id": "TC08",
+    "tc_name": "Custom Sizing Mode",
+    "notes": "Custom Mode evaluating user-specified plate dimensions without auto-optimization.",
+    "osi_file": "D:\\my work\\OsdagBridge\\testing\\osi_files\\TC08_Custom_Sizing_Mode.osi",
+    "osi_valid": true,
+    "status": "PASS",
+    "runs": [
+      {
+        "run_index": 1,
+        "girder_depth_before": 1670,
+        "elapsed_seconds": 45.07,
+        "success": true,
+        "girder_depth_after": 1.67,
+        "output_keys_count": 1040,
+        "max_dcr": 1.3203,
+        "util_flexure": 17.19,
+        "util_shear": 40.21,
+        "util_ltb": 18.15,
+        "util_fatigue": 132.03,
+        "util_deflection": 39.33,
+        "deck_verdict": "PASS",
+        "cad_params_generated": true,
+        "cad_num_girders": 4
+      }
+    ]
+  }
+]
