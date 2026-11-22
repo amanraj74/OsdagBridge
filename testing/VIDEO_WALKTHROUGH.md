@@ -6,10 +6,13 @@
 ---
 
 ## Overview
-This document provides a concise step-by-step guide for recording the short silent screencast required for your FOSSEE submission.
+This document provides a concise step-by-step guide for recording the 2 to 3-minute screencast required for your FOSSEE submission.
+
+> [!TIP]
+> For the comprehensive scene-by-scene script with exact timestamps, mouse actions, word-for-word spoken voiceover dialogue, and silent text cards, see [testing/VIDEO_RECORDING_SCRIPT.md](file:///d:/my%20work/OsdagBridge/testing/VIDEO_RECORDING_SCRIPT.md).
 
 - **Duration**: 2 to 3 minutes
-- **Audio**: Silent (no voiceover required, as permitted by screening guidelines)
+- **Audio**: Spoken voiceover OR Silent screencast (both formats supported)
 - **Tools**: Windows Game Bar (`Win + Alt + R`), OBS Studio, Loom, or ShareX
 - **Key Sections to Show**:
   1. Application Launch (`python -m osdagbridge.desktop`)
